@@ -43,3 +43,15 @@ type Event struct {
 	Type      string
 	Data      map[string]any
 }
+
+// Feature constants
+const (
+	FeatureBasicMonitoring     = "basic_monitoring"
+	FeatureConsoleLogging      = "console_logging"
+	FeatureAPILogging          = "api_logging"
+	FeatureAdvancedFilters     = "advanced_filters"
+	FeaturePoisonDetection     = "poison_detection"
+	FeatureMLAnalytics         = "ml_analytics"
+	FeatureComplianceReporting = "compliance_reporting"
+	FeatureTeamCollaboration   = "team_collaboration"
+)
