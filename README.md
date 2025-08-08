@@ -26,7 +26,7 @@ By default, consumers fetch a tagged SDK version from the remote. During local d
 Assuming all repos live under a common parent directory (recommended):
 
 ```bash
-cd /Users/milesangelo/Source/active/kilometers.ai
+cd /path/to/parent
 go work init ./kilometers-plugins-sdk ./kilometers-cli ./kilometers-cli-plugins
 go work use  ./kilometers-plugins-sdk ./kilometers-cli ./kilometers-cli-plugins
 
