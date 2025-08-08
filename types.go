@@ -27,6 +27,8 @@ type PluginInfo struct {
 type Config struct {
 	Debug    bool
 	Features []string
+	// Optional fields that some plugins expect in legacy form
+	ApiEndpoint string
 }
 
 type StreamEvent struct {
