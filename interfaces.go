@@ -22,7 +22,7 @@ type Plugin interface {
 	GetInfo() PluginInfo
 
 	// Initialize initializes the plugin with configuration
-	Initialize(ctx context.Context, config Config) error
+	Initialize(ctx context.Context, config PluginConfig) error
 
 	// HandleMessage handles a message with direction and correlation ID
 	HandleMessage(ctx context.Context, data []byte, direction Direction, correlationID string) error
